@@ -23,12 +23,7 @@ public class Main {
 				boolean equal = s.charAt(i) == s.charAt(j);
 				if (len == 2 && equal) {
 					F[i][j] = true;
-				} else {
-					F[i][j] = F[i + 1][j - 1] && equal;
-				}
-				if (F[i][j]) {
-					ans = Math.max(ans, len);
-				}
+				} else F[i][j] = F[i + 1][j - 1] && equal;if (F[i][j]) ans = Math.max(ans, len);
 			}
 		}
 
