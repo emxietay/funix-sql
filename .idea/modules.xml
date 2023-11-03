@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LAB.iml" filepath="$PROJECT_DIR$/.idea/LAB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DBA-FUNIX.iml" filepath="$PROJECT_DIR$/DBA-FUNIX.iml" />
     </modules>
   </component>
 </project>
